@@ -10,11 +10,13 @@ import { employees, IEmployee } from "../../../data.ts";
 import { PortfolioCard } from "../../components/portfolioCard/index.tsx";
 import { useState } from "react";
 import { CardVisualization } from "../../components/cardVisualization/index.tsx";
+import { useParams } from "react-router";
 export const Portfolio = () => {
   const [showModal, setShowModal] = useState(false);
   const [selectedEmployee, setSelectedEmployee] = useState<IEmployee | null>(
     null
   );
+  const {areaId} = useParams()
   const handleClick = (employee: IEmployee) => {
     setShowModal(true);
     setSelectedEmployee(employee);
@@ -31,10 +33,7 @@ export const Portfolio = () => {
         </PortfolioParagraph>
       </PortfolioTextBox>
       <PortfolioCardBox>
-        {[
-         
-          ...employees,
-        ].map((e, i) => (
+        {employees.filter(x => x.areaAtuacao.includes(Number(areaId))).map((e, i) => (
           <PortfolioCard
             employee={e}
             key={e.nome + i}

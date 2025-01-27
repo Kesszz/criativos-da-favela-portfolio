@@ -49,7 +49,7 @@ const AreasContent = styled.div`
     padding-top: 20px;
 `;
 
-const AreasCardCotainer = styled.div`
+const AreasCardCotainer = styled.a`
 
      background-color: rgb(250, 250, 250); /* Fallback color */
   background-color: rgba(250,250,250, 0.2); /* Black w/opacity/see-through */
@@ -62,6 +62,7 @@ const AreasCardCotainer = styled.div`
      border-radius: 8px;
      row-gap: 10px;
      cursor: pointer;
+     text-decoration: none;
    
 
 &:hover {

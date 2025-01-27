@@ -4,27 +4,33 @@ import { AreasCard, AreasCardCotainer, AreasContainer, AreasContent, AreasHeader
 const cards = [
     {
         name: 'FILMAGEM E FOTOGRAFIA',
-        img: '/assets/video.png'
+        img: '/assets/video.png',
+        id: 1
     },
     {
         name: 'PRODUÇÃO E DIREÇÃO',
-        img: '/assets/cadeira-diretor.png'
+        img: '/assets/cadeira-diretor.png',
+        id: 2
     },
     {
         name: 'SOM E ÁUDIO',
-        img: '/assets/sound-waves.png'
+        img: '/assets/sound-waves.png',
+        id: 3
     },
     {
         name: 'ARTE E DESIGN',
-        img: '/assets/design-grafico.png'
+        img: '/assets/design-grafico.png',
+        id:4
     },
     {
         name: 'COMUNICAÇÃO E MARKETING',
-        img: '/assets/comunicacao.png'
+        img: '/assets/comunicacao.png',
+        id: 5
     },
     {
         name: 'EDIÇÃO E PÓS-PRODUÇÃO',
-        img: '/assets/ferramenta-de-corte.png'
+        img: '/assets/ferramenta-de-corte.png',
+        id: 6
     },
 ]
 
@@ -35,7 +41,7 @@ export const Areas = () => {
       <AreasImg src='/assets/logo.png' />
       </AreasHeader>
       <AreasContent >
-        {cards.map(c => <AreasCardCotainer>
+        {cards.map(c => <AreasCardCotainer href={`/portfolio/${c.id}`}>
             <AreasCard> <img src={c.img} /></AreasCard>
             <p>{c.name}</p>
         </AreasCardCotainer>)}
