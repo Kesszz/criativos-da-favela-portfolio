@@ -33,6 +33,16 @@ const CardButton = styled.button`
         img {
             transform: scale(1.1);
         }
+
+        @media (max-width: 700px) {
+            &:hover {
+                transform: unset;
+
+                img {
+                    transform: unset;
+                }
+            }
+        }
         
     }
 `
