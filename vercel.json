@@ -1,7 +1,12 @@
 {
-    "routes": [
-        {
-            "src": "/portfolio", "dest": "/"
-        }
+    "rewrites": [
+      {
+        "source": "/portfolio/:areaId",
+        "destination": "/"
+      },
+      {
+        "source": "/:path*",
+        "destination": "/"
+      }
     ]
-}
+  }
