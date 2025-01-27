@@ -11,7 +11,7 @@ export const Areas = () => {
       <AreasImg src='/assets/logo.png' />
       </AreasHeader>
       <AreasContent >
-        {cards.map(c => <AreasCardCotainer href={`/portfolio/${c.id}`}>
+        {cards.map(c => <AreasCardCotainer key={c.id}  href={`/portfolio/${c.id}`}>
             <AreasCard> <img src={c.img} /></AreasCard>
             <p>{c.name}</p>
         </AreasCardCotainer>)}
