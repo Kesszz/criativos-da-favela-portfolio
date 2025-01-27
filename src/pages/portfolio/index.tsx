@@ -20,7 +20,6 @@ export const Portfolio = () => {
   const handleClick = (employee: IEmployee) => {
     setShowModal(true);
     setSelectedEmployee(employee);
-    console.log("oie");
   };
   return (
     <PortfolioContainer>

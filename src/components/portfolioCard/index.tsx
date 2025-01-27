@@ -11,7 +11,6 @@ interface CardButtonProps {
 export const PortfolioCard = ({img, setModal, employee}: CardButtonProps) => {
     const handleClick = () => {
         setModal()
-        console.log(employee)
     }
 
     return <CardButton  onClick={handleClick} >
