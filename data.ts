@@ -230,7 +230,15 @@ const employees: IEmployee[] = [
         "link": "https://drive.google.com/file/d/1-AMGt_OFOU1HBvVHr3wjXyy4hYbxEpXi/view?usp=drivesdk",
         "habilidades": ["Fotografia", "Edição", "Colorista"],
         "foto": "/assets/pictures/ELLEN_LOPES.jpg"
+    },
+    {
+        "nome": "Kess", 
+        "areaAtuacao": [1, 2, 4, 6],
+        "link": "https://www.instagram.com/olhomoloji?igsh=ejFzZXN0ZGRkbHNp",
+        "habilidades": ["Fotografia", "Filmagem", "Op. de Câmera", "Edição", "Colors", "Luz e Maquinaria", "Direção de Arte"],
+        "foto": "/assets/pictures/Kess.JPG"
     }
+    
     
     
 ]
