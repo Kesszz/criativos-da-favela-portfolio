@@ -33,7 +33,7 @@ const employees: IEmployee[] = [
         "areaAtuacao": [1, 2, 5, 6], 
         "link": "https://www.canva.com/design/DAGcH6IB-Gk/9xXM9f-SUEfCwg6RATNksA/edit", 
         "habilidades": ["Gaffer", "Produtor", "Filmmaker", "Operador de câmera"], 
-        "foto": "/assets/pictures/IVAN.JPEG"
+        "foto": "/assets/pictures/IVAN.jpg"
     },
     {
         "nome": "Ray Santos", 
@@ -173,7 +173,7 @@ const employees: IEmployee[] = [
         "areaAtuacao": [1, 6], 
         "link": "https://ftwagencia.com.br/portifolio/", 
         "habilidades": ["Operador de Câmera e Drone", "Filmmaker", "Fotógrafo", "Editor"], 
-        "foto": "/assets/pictures/exterminadorDoFuturo.jpg"
+        "foto": "/assets/pictures/SERRANO.jpg"
     },
     {
         "nome": "Paulo D Souza", 
@@ -187,8 +187,51 @@ const employees: IEmployee[] = [
         "areaAtuacao": [2, 4],
         "link": "https://www.canva.com/design/DAGc-BDFu9M/rG82Gu639Gbj84itiB8FWA/view?utm_content=DAGc-BDFu9M&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hc5d6f00a6e",
         "habilidades": ["Ilustrador", "Roteirista"],
-        "foto": "/assets/pictures/exterminadorDoFuturo.jpg"
+        "foto": "/assets/pictures/JOAO_VITOR.PNG"
+    },
+    {
+        "nome": "Pietro Universo", 
+        "areaAtuacao": [1, 2, 4, 6],
+        "link": "https://pietrouniverso.my.canva.site",
+        "habilidades": ["Fotógrafo", "Ator", "Editor", "Diretor Criativo"],
+        "foto": "/assets/pictures/PIETRO_UNIVERSO.jpg"
+    },
+    {
+        "nome": "Ju Costa", 
+        "areaAtuacao": [1, 6],
+        "link": "https://www.instagram.com/clicksdajuliana",
+        "habilidades": ["Fotografia", "Filmagem", "Edição"],
+        "foto": "/assets/pictures/JU_COSTA.JPG"
+    },
+    {
+        "nome": "Jupiter Greco", 
+        "areaAtuacao": [2, 4],
+        "link": "https://drive.google.com/file/d/1XVbLy8R2Yvbs__vRg5x9sOTGp9-RSaXf/view?usp=drivesdk",
+        "habilidades": ["AD", "Direção", "Produção", "Atuação"],
+        "foto": "/assets/pictures/jupiter.jpg"
+    },
+    {
+        "nome": "Breno de Sousa", 
+        "areaAtuacao": [4, 2, 5],
+        "link": "https://aquarelado.my.canva.site/",
+        "habilidades": ["Design", "Direção Criativa", "Ilustrador"],
+        "foto": "/assets/pictures/BRENO_DE_SOUSA.jpg"
+    },
+    {
+        "nome": "Marcelo Sina", 
+        "areaAtuacao": [2, 4, 5],
+        "link": "https://www.canva.com/design/DAFD4ofrJ8c/owrg7gjn6kAXtzV4SumHlQ/edit?utm_content=DAFD4ofrJ8c&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+        "habilidades": ["Ator", "AD", "Dramaturgo"],
+        "foto": "/assets/pictures/MARCELO_SINA.jpg"
+    },
+    {
+        "nome": "Ellen Lopes", 
+        "areaAtuacao": [1, 6],
+        "link": "https://drive.google.com/file/d/1-AMGt_OFOU1HBvVHr3wjXyy4hYbxEpXi/view?usp=drivesdk",
+        "habilidades": ["Fotografia", "Edição", "Colorista"],
+        "foto": "/assets/pictures/ELLEN_LOPES.jpg"
     }
+    
     
 ]
 
