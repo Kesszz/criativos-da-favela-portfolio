@@ -63,6 +63,7 @@ const AreasCardCotainer = styled.a`
      row-gap: 10px;
      cursor: pointer;
      text-decoration: none;
+     padding: 20px 0;
    
 
 &:hover {

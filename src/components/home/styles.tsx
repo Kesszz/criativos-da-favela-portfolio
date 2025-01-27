@@ -24,7 +24,7 @@ const HomeBackground = styled.div`
     background-size: cover;
 
     @media (max-width: 700px) {
-        width: 100%;
+        width: 100vw;
         background-size: contain;
         height: 70vh;
     }

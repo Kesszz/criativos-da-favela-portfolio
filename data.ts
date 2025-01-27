@@ -33,7 +33,7 @@ const employees: IEmployee[] = [
         "areaAtuacao": [1, 2, 5, 6], 
         "link": "https://www.canva.com/design/DAGcH6IB-Gk/9xXM9f-SUEfCwg6RATNksA/edit", 
         "habilidades": ["Gaffer", "Produtor", "Filmmaker", "Operador de câmera"], 
-        "foto": "/assets/pictures/exterminadorDoFuturo.jpg"
+        "foto": "/assets/pictures/IVAN.JPEG"
     },
     {
         "nome": "Ray Santos", 
@@ -61,14 +61,14 @@ const employees: IEmployee[] = [
         "areaAtuacao": [2, 5], 
         "link": "https://drive.google.com/file/d/1Pz6pOjFpM0zW59kngFPWYv-i6vWVNjkE/view?usp=drive_link", 
         "habilidades": ["Produtora", "Social Media"], 
-        "foto": "/assets/pictures/exterminadorDoFuturo.jpg"
+        "foto": "/assets/pictures/DHARA_ANDRADE.jpg"
     },
     {
         "nome": "VITOR ALMEIDA", 
         "areaAtuacao": [1, 6], 
         "link": "https://drive.google.com/file/d/1-8vU6U9A4fis37Ci6ZqaI25Vst1vJXTO/view?usp=drive_link", 
         "habilidades": ["Fotógrafo", "Filmmaker", "Editor de vídeos"], 
-        "foto": "/assets/pictures/exterminadorDoFuturo.jpg"
+        "foto": "/assets/pictures/VITOR_ALMEIDA.JPG"
     },
     {
         "nome": "DEBRITAS", 
@@ -96,14 +96,14 @@ const employees: IEmployee[] = [
         "areaAtuacao": [1, 2], 
         "link": "https://drive.google.com/file/d/1dYNn4nQPKQSBVtD20Wq4j62bW2SriOc5/view?usp=drive_link", 
         "habilidades": ["Fotografia", "Roteiro", "Produção"], 
-        "foto": "/assets/pictures/exterminadorDoFuturo.jpg"
+        "foto": "/assets/pictures/LEANDRA.jpg"
     },
     {
         "nome": "JULIANA BITENCOURT", 
         "areaAtuacao": [2, 5], 
         "link": "https://www.behance.net/gallery/217488437/Portfolio-Juliana-Bitencourt", 
         "habilidades": ["Produção", "Comunicação"], 
-        "foto": "/assets/pictures/exterminadorDoFuturo.jpg"
+        "foto": "/assets/pictures/JULIANA_BITENCOURT.jpg"
     },
     {
         "nome": "GUILHERME CALAFATE", 
@@ -159,7 +159,7 @@ const employees: IEmployee[] = [
         "areaAtuacao": [1, 5, 4], 
         "link": "https://drive.google.com/file/d/1kBz9nRs9awzwuvHvaQNa0tL3HatxO34u/view?usp=drivesdk", 
         "habilidades": ["Ator", "Roteirista", "Fotógrafo"], 
-        "foto": "/assets/pictures/JOSEFFER_NASCIMENTOS.jpg"
+        "foto": "/assets/pictures/JOSEFFER_NASCIMENTO.jpg"
     },
     {
         "nome": "HELENA BARBOSA", 
