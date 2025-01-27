@@ -12,7 +12,7 @@ import {
   HomeTitleContainer,
 } from "./styles";
 
-export const Home = () => {
+export const HomeComponent = () => {
   return (
     <HomeContainer>
       <HomeBackground />

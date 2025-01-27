@@ -1,6 +1,7 @@
-import { Areas } from "./components/areas"
-import { Home } from "./components/home"
+import { Route, Routes } from "react-router"
 import { Container } from "./styles"
+import { Home } from "./pages/home"
+import { Portfolio } from "./pages/portfolio"
 
 
 function App() {
@@ -8,8 +9,10 @@ function App() {
 
   return (
     <Container>
-      <Home />
-      <Areas />
+       <Routes>
+          <Route path="/" element={<Home />}  />
+          <Route path={`/portfolio`} element={<Portfolio />} />
+       </Routes>
     </Container>
   )
 }

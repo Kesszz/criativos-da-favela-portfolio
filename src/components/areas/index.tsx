@@ -1,3 +1,4 @@
+
 import { AreasCard, AreasCardCotainer, AreasContainer, AreasContent, AreasHeader, AreasImg } from "./styles";
 
 const cards = [
