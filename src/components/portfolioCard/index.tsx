@@ -1,6 +1,6 @@
 
 import { IEmployee } from "../../../data"
-import { CardButton } from "./styles"
+import { CardButton, CardButtonInfos } from "./styles"
 
 interface CardButtonProps {
     img: string
@@ -16,5 +16,8 @@ export const PortfolioCard = ({img, setModal, employee}: CardButtonProps) => {
 
     return <CardButton  onClick={handleClick} >
         <img src={img} />
+        <CardButtonInfos>
+            <p>{employee.nome}</p>
+        </CardButtonInfos>
     </CardButton>
 }

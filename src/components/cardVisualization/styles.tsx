@@ -24,6 +24,8 @@ const InfoCardContainer = styled.div`
   padding: 24px;
   max-height: 90vh;
   position: relative;
+  overflow: auto;
+  box-shadow: 0px 2px 15px 0px #FFF;
 
   @media (max-width: 700px) {
     width: 90%;

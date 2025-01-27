@@ -33,7 +33,7 @@ export const Portfolio = () => {
         </PortfolioParagraph>
       </PortfolioTextBox>
       <PortfolioCardBox>
-        {employees.filter(x => x.areaAtuacao.includes(Number(areaId))).map((e, i) => (
+        {employees.sort((a, b) => a.nome.localeCompare(b.nome)).filter(x => x.areaAtuacao.includes(Number(areaId))).map((e, i) => (
           <PortfolioCard
             employee={e}
             key={e.nome + i}
