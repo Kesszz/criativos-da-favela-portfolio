@@ -19,14 +19,14 @@ const employees: IEmployee[] = [
         "areaAtuacao": [1, 2, 5], 
         "link": "https://drive.google.com/drive/folders/1-MH6nE3rVOdOFT7-f9-Ydi6cPsHLr3WM", 
         "habilidades": ["Produtora", "Diretora de arte", "Social media", "Fotógrafa"], 
-        "foto": "/assets/pictures/exterminadorDoFuturo.jpg"
+        "foto": "/assets/pictures/LUZ_BARBOSA.jpg"
     },
     {
         "nome": "Pedro Sampaio", 
         "areaAtuacao": [1, 2], 
         "link": "https://drive.google.com/file/d/1zAkrSQUdBRVMzTbMBf2Lvvp_EUgZyb0t/view?usp=drive_link", 
         "habilidades": ["Fotógrafo", "Editor de fotos e vídeos", "Diretor de arte"], 
-        "foto": "/assets/pictures/exterminadorDoFuturo.jpg"
+        "foto": "/assets/pictures/PEDRO_SAMPAIO.jpg"
     },
     {
         "nome": "Ivan Pereira", 
@@ -40,7 +40,7 @@ const employees: IEmployee[] = [
         "areaAtuacao": [1, 5, 6], 
         "link": "https://www.behance.net/rayanesantos47", 
         "habilidades": ["Social media", "Fotógrafo", "Editor"], 
-        "foto": "/assets/pictures/exterminadorDoFuturo.jpg"
+        "foto": "/assets/pictures/RAY_SOUZA.jpg"
     },
     {
         "nome": "Dornelles", 
@@ -82,14 +82,14 @@ const employees: IEmployee[] = [
         "areaAtuacao": [1, 2, 3], 
         "link": "https://marzenin.myportfolio.com/", 
         "habilidades": ["DOP", "Operação de Câmera", "Gaffer", "Colorista"], 
-        "foto": "/assets/pictures/exterminadorDoFuturo.jpg"
+        "foto": "/assets/pictures/Mar_Zenin.JPG"
     },
     {
         "nome": "RARE ODIN", 
         "areaAtuacao": [1, 2, 6], 
         "link": "https://www.behance.net/rareodin", 
         "habilidades": ["Editor de Video", "Op de Camera", "Diretor de Video Clip"], 
-        "foto": "/assets/pictures/exterminadorDoFuturo.jpg"
+        "foto": "/assets/pictures/RARE_ODIN.jpg"
     },
     {
         "nome": "LEANDRA BARROS", 
@@ -131,14 +131,14 @@ const employees: IEmployee[] = [
         "areaAtuacao": [5, 2], 
         "link": "https://drive.google.com/file/d/1EpyOs9y58D_C-CoclzfEpiCu2jLsOWul/view?usp=drivesdk", 
         "habilidades": ["Comunicação", "Direção de Arte"], 
-        "foto": "/assets/pictures/exterminadorDoFuturo.jpg"
+        "foto": "/assets/pictures/WINNIE.jpg"
     },
     {
         "nome": "VZ DA GAIA", 
         "areaAtuacao": [1, 2, 6], 
         "link": "https://www.canva.com/design/DAGIrvn5QwA/WHwtHa7yxeOos4vpx7NO6w/edit", 
         "habilidades": ["Fotógrafa", "Filmmaker", "Editora"], 
-        "foto": "/assets/pictures/exterminadorDoFuturo.jpg"
+        "foto": "/assets/pictures/VZ_DA_GAIA.JPG"
     },
     {
         "nome": "GABRIEL PEREIRA", 
@@ -159,7 +159,7 @@ const employees: IEmployee[] = [
         "areaAtuacao": [1, 5, 4], 
         "link": "https://drive.google.com/file/d/1kBz9nRs9awzwuvHvaQNa0tL3HatxO34u/view?usp=drivesdk", 
         "habilidades": ["Ator", "Roteirista", "Fotógrafo"], 
-        "foto": "/assets/pictures/exterminadorDoFuturo.jpg"
+        "foto": "/assets/pictures/JOSEFFER_NASCIMENTOS.jpg"
     },
     {
         "nome": "HELENA BARBOSA", 
@@ -174,7 +174,22 @@ const employees: IEmployee[] = [
         "link": "https://ftwagencia.com.br/portifolio/", 
         "habilidades": ["Operador de Câmera e Drone", "Filmmaker", "Fotógrafo", "Editor"], 
         "foto": "/assets/pictures/exterminadorDoFuturo.jpg"
+    },
+    {
+        "nome": "Paulo D Souza", 
+        "areaAtuacao": [2, 4, 3],
+        "link": "https://drive.google.com/file/d/1hev8HTGlLGyR0ZxJJMozyjwimbfYpLxU/view?usp=drivesdk",
+        "habilidades": ["Produtor", "Áudio", "Ator"],
+        "foto": "/assets/pictures/PAULO_D_SOUZA.JPG"
+    },
+    {
+        "nome": "João Victor", 
+        "areaAtuacao": [2, 4],
+        "link": "https://www.canva.com/design/DAGc-BDFu9M/rG82Gu639Gbj84itiB8FWA/view?utm_content=DAGc-BDFu9M&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hc5d6f00a6e",
+        "habilidades": ["Ilustrador", "Roteirista"],
+        "foto": "/assets/pictures/exterminadorDoFuturo.jpg"
     }
+    
 ]
 
 
