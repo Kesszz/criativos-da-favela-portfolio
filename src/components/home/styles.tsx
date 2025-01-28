@@ -7,11 +7,18 @@ const HomeContainer = styled.div`
     display: flex;
     align-items: center;
 
+    @media (max-height: 600px) {
+        height: auto;
+        min-height: 100vh;
+        padding-bottom: 100px;
+    }
     @media (max-width: 700px) {
         flex-direction: column;
         min-height: 100vh;
         height: auto;
     }
+
+   
 `;
 
 const HomeBackground = styled.div`
@@ -22,6 +29,11 @@ const HomeBackground = styled.div`
     background-position: none 50%;
     flex: 0 0 auto;
     background-size: cover;
+
+    @media (max-height: 600px) {
+      height: 100vh;
+      
+    }
 
     @media (max-width: 700px) {
         width: 100vw;
@@ -80,6 +92,10 @@ const HomeTitle = styled.h1`
        font-size: 26px;
     }
 
+    @media (max-height: 800px) {
+        font-size: 30px;
+    }
+
     @media (max-width: 700px) {
        font-size: 24px;
     }
@@ -121,6 +137,11 @@ const HomeProjetcTitle = styled.h2`
        font-size: 26px;
     }
 
+    
+    @media (max-height: 800px) {
+        font-size: 44px;
+    }
+
     @media (max-width: 700px) {
        font-size: 30px;
     }
@@ -142,6 +163,10 @@ const HomeProjectParagraph = styled.p`
        font-size: 12px;
     }
 
+    @media (max-height: 800px) {
+        font-size: 14px;
+    }
+
     @media (max-width: 700px) {
        font-size: 10px;
     }
@@ -152,6 +177,10 @@ const HomeProjectKnowBox = styled.div`
     bottom: 0;
     right: 150px;
 
+    @media (max-height: 600px) {
+        position: static;
+        float: right;
+    }
     
     @media (max-width: 700px) {
        
@@ -167,7 +196,9 @@ const HomeProjectKnowBoxText = styled.p`
        font-size: 30px;
     }
 
-
+    @media (max-height: 800px) {
+        font-size: 60px;
+    }
      @media (max-width: 700px) {
        margin-top: 24px;
        font-size: 40px;
