@@ -39,6 +39,7 @@ const HomeBackground = styled.div`
         width: 100vw;
         background-size: contain;
         height: 70vh;
+        background-position: center center;
     }
 `;
 
