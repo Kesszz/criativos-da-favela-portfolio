@@ -36,7 +36,6 @@ const InfoCardHeader = styled.div`
   display: flex;
   align-items: center;
   gap: 20px;
-
   @media (max-width: 700px) {
       flex-direction: column;
     }
@@ -46,6 +45,12 @@ const InfoCardHeader = styled.div`
     height: 240px;
     border-radius: 50%;
 
+    @media (max-height: 800px) {
+      width: 150px;
+      height: 150px;
+      
+    }
+
     @media (max-width: 700px) {
       
     }
@@ -54,6 +59,11 @@ const InfoCardHeader = styled.div`
   p {
     color: #1a4b2d;
     font-size: 60px;
+
+    @media (max-height: 800px) {
+      font-size: 40px;
+      
+    }
 
     @media (max-width: 700px) {
       font-size: 40px;
@@ -67,6 +77,10 @@ const InfoCardBody = styled.div`
     color: #1a4b2d;
     font-size: 60px;
 
+    @media (max-height: 800px) {
+      font-size: 50px;
+      
+    }
     @media (max-width: 700px) {
       font-size: 40px;
     }
@@ -77,6 +91,10 @@ const InfoCardTags = styled.p`
   font-size: 46px;
   text-transform: uppercase;
 
+  @media (max-height: 800px) {
+      font-size: 36px;
+      
+    }
   @media (max-width: 700px) {
       font-size: 26px;
     }
@@ -90,6 +108,11 @@ const InfoCardLink = styled.a`
   overflow: hidden;
   display: inline-block;
   color: inherit;
+
+  @media (max-height: 800px) {
+      font-size: 36px;
+      
+    }
 
   @media (max-width: 700px) {
       font-size: 26px;
