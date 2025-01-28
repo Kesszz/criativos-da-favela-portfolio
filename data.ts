@@ -237,7 +237,15 @@ const employees: IEmployee[] = [
         "link": "https://www.instagram.com/olhomoloji?igsh=ejFzZXN0ZGRkbHNp",
         "habilidades": ["Fotografia", "Filmagem", "Op. de Câmera", "Edição", "Colors", "Luz e Maquinaria", "Direção de Arte"],
         "foto": "/assets/pictures/Kess.JPG"
+    },
+    {
+        "nome": "Gabriel Marques", 
+        "areaAtuacao": [4, 6],
+        "link": "https://www.instagram.com/gabmarart?igsh=b2Yzam83cmpoZ3E4",
+        "habilidades": ["Design", "Edição", "Motion"],
+        "foto": "/assets/pictures/GABRIEL_MARQUES.jpg"
     }
+    
     
     
     
