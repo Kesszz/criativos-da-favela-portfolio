@@ -208,7 +208,7 @@ const employees: IEmployee[] = [
         "areaAtuacao": [2, 4],
         "link": "https://drive.google.com/file/d/1XVbLy8R2Yvbs__vRg5x9sOTGp9-RSaXf/view?usp=drivesdk",
         "habilidades": ["AD", "Direção", "Produção", "Atuação"],
-        "foto": "/assets/pictures/jupiter.jpg"
+        "foto": "/assets/pictures/jupiter.png"
     },
     {
         "nome": "Breno de Sousa", 
