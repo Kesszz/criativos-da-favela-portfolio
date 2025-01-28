@@ -37,7 +37,7 @@ const HomeBackground = styled.div`
 
     @media (max-width: 700px) {
         width: 100vw;
-        background-size: contain;
+        background-size: cover;
         height: 70vh;
         background-position: center center;
     }
